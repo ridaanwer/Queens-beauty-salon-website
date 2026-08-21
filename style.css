@@ -1,0 +1,61 @@
+:root {
+    --brown: #d63384; 
+}
+
+.brown-text {
+    color: var(--brown);
+}
+
+.btn-book {
+    background-color:#000; 
+    color: #fff;
+    padding:12px 24px; 
+    border:2px solid #8e44ad; 
+    border: radius 8px; 
+}
+
+
+.btn-book:hover { 
+    background-color: #8e44ad;
+    color: #fff; 
+    border-color: #8e44ad; 
+    
+    #appointmentForm
+     button[type="submit"] {
+    background-color: #000000! important;
+    colorborder: 3px solid #8e44ad !important;
+    color: #ffffff !important;
+    border-radius:8px! important 
+} 
+.floating-whatsapp-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 32px;
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover & Pulse Effect */
+.floating-whatsapp-btn:hover {
+  background-color: #128c7e;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.4);
+} 
+
+    
+        } 
+    
+ 
